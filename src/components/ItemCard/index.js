@@ -1,98 +1,89 @@
 import React from "react";
 import { FaArrowUpFromBracket } from "react-icons/fa6";
 import "./index.css";
-import img1 from "./bag1.png";
-import img2 from "./bag2.png";
-import img3 from "./bag3.png";
-import img4 from "./bag4.png";
-import img5 from "./bag5.png";
-import img6 from "./bag6.png";
-import img7 from "./bag7.png";
-import img8 from "./bag8.png";
-import logo1 from "./Bookmark.png";
-import rupeLogo from "./logorupe.png";
-import cartLogo from "./cartLogo.png";
 import ItemImage from "../ItemImage";
+import image1 from "../images/bag1.png";
+import image2 from "../images/bag2.png";
+import image3 from "../images/bag3.png";
+import image4 from "../images/bag4.png";
+import image5 from "../images/bag5.png";
+import image6 from "../images/bag6.png";
+import image7 from "../images/bag7.png";
+import image8 from "../images/bag8.png";
+import logo1 from "../images/logoRupee.png";
+import logo2 from "../images/cartLogo.png";
 const ItemList = [
   {
-    imageUrl: img1,
+    imageUrl: image1,
     name: "The Metro Movers Black",
     price: "4899",
     orgPrice: "8999",
     discount: "(50% Off)",
-    logoUrl: logo1,
-    logoR: rupeLogo,
-    cartIcon: cartLogo,
+    logoR: logo1,
+    cartIcon: logo2,
   },
   {
-    imageUrl: img2,
+    imageUrl: image2,
     name: "The Metro Movers Black",
     price: "4899",
     orgPrice: "8999",
     discount: "(50% Off)",
-    logoUrl: logo1,
-    logoR: rupeLogo,
-    cartIcon: cartLogo,
+    logoR: logo1,
+    cartIcon: logo2,
   },
   {
-    imageUrl: img3,
+    imageUrl: image3,
     name: "The Metro Movers Black",
     price: "4899",
     orgPrice: "8999",
     discount: "(50% Off)",
-    logoUrl: logo1,
-    logoR: rupeLogo,
-    cartIcon: cartLogo,
+    logoR: logo1,
+    cartIcon: logo2,
   },
   {
-    imageUrl: img4,
+    imageUrl: image4,
     name: "The Metro Movers Black",
     price: "4899",
     orgPrice: "8999",
     discount: "(50% Off)",
-    logoUrl: logo1,
-    logoR: rupeLogo,
-    cartIcon: cartLogo,
+    logoR: logo1,
+    cartIcon: logo2,
   },
   {
-    imageUrl: img5,
+    imageUrl: image5,
     name: "The Metro Movers Black",
     price: "4899",
     orgPrice: "8999",
     discount: "(50% Off)",
-    logoUrl: logo1,
-    logoR: rupeLogo,
-    cartIcon: cartLogo,
+    logoR: logo1,
+    cartIcon: logo2,
   },
   {
-    imageUrl: img6,
+    imageUrl: image6,
     name: "The Metro Movers Black",
     price: "4899",
     orgPrice: "8999",
     discount: "(50% Off)",
-    logoUrl: logo1,
-    logoR: rupeLogo,
-    cartIcon: cartLogo,
+    logoR: logo1,
+    cartIcon: logo2,
   },
   {
-    imageUrl: img7,
+    imageUrl: image7,
     name: "The Brown Metro Movers",
     price: "4899",
     orgPrice: "8999",
     discount: "(50% Off)",
-    logoUrl: logo1,
-    logoR: rupeLogo,
-    cartIcon: cartLogo,
+    logoR: logo1,
+    cartIcon: logo2,
   },
   {
-    imageUrl: img8,
+    imageUrl: image8,
     name: "The Brown Metro Movers",
     price: "4899",
     orgPrice: "8999",
     discount: "(50% Off)",
-    logoUrl: logo1,
-    logoR: rupeLogo,
-    cartIcon: cartLogo,
+    logoR: logo1,
+    cartIcon: logo2,
   },
 ];
 
