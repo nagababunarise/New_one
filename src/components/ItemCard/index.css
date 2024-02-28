@@ -1,0 +1,75 @@
+.product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.backpacks-bar {
+  width: 1214.67px;
+  height: 20px;
+  top: 299px;
+  left: 32px;
+}
+.backpacks-bar h1 {
+  font-family: Encode Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #e5dfd9;
+}
+@media screen and (max-width: 600px) {
+  .backpacks-bar h1 {
+    font-size: 15px;
+  }
+}
+.backpacks-bar h1 span {
+  font-size: 10px;
+  color: #e5dfd9;
+  font-weight: bold;
+}
+.logo-responsive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no-products {
+  font-family: Encode Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #e5dfd9;
+}
+@media screen and (max-width: 600px) {
+  .no-products {
+    font-size: 15px;
+  }
+}
+.product-logo {
+  font-size: 20px;
+  top: 299px;
+  left: 1230px;
+  border: 2px;
+  color: #e5dfd9;
+  margin-left: 10px;
+}
+@media screen and (max-width: 600px) {
+  .product-logo {
+    font-size: 15px;
+  }
+}
+
+.responsive-layout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 80px;
+}

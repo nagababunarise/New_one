@@ -1,0 +1,64 @@
+.main-card {
+  background: rgb(17, 17, 17);
+  box-shadow: 5px 5px 5px 0px rgb(17, 17, 17);
+  transition: 0.9s ease-in-out;
+  margin: 20px;
+  padding: 2px 2px;
+}
+.main-card:hover {
+  transform: translateY(-4%);
+}
+
+.main-image {
+  background: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.product-name {
+  color: rgb(238, 235, 235);
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.price-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.rupee-logo {
+  width: 13px;
+  margin-right: 5px;
+  margin-left: 4px;
+}
+.price {
+  color: #fff;
+  font-weight: 700;
+}
+.org-price {
+  color: rgb(148, 146, 146);
+  padding-left: 10px;
+  font-size: 15px;
+  text-decoration: line-through;
+  font-weight: 700;
+  padding-top: 5px;
+}
+.discount {
+  color: rgb(5, 252, 136);
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.cart-icon {
+  width: 30px;
+}
+.responsive-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

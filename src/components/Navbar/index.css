@@ -1,0 +1,25 @@
+.navbar-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  gap: 50px;
+}
+.navbar-container li {
+  font-family: Encode Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #e5dfd9;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .navbar-container {
+    gap: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

@@ -1,0 +1,39 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.header-container h1 {
+  font-family: Comme;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.55em;
+  text-align: left;
+  color: #e5dfd9;
+}
+.logo-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.search-logo {
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*---------------Mobile view media queries---------------*/
+
+@media only screen and (max-width: 600px) {
+  .header-container h1 {
+    font-size: 14px;
+  }
+  .search-logo {
+    font-size: 18px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
